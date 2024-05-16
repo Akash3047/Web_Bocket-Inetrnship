@@ -22,7 +22,16 @@ console.log(typeof decimal_num);
 //task:
 //task1 : declare a variable and assign a value to it.
 //task2 : declare different variable of numbers nd assign different values to perform mathematical operations. 
-//eg- +,-,*,/ and modulus
+//eg- +,-,*,/ and modulus.
+
+//task-1:
+
+let Third_num = 1200;
+console.log(Third_num);
+
+console.log(typeof Third_num)
+
+//task-2:
 
 let num1 = 10;
 let num2 = 20;
