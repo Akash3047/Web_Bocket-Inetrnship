@@ -57,3 +57,21 @@ let num9 = 10;
 let num10 = 40;
 let modulus = num9 % num10;
 console.log(modulus);
+
+
+//Answers
+/*PS E:\Web_Bocket-Inetrnship\javascript\class 1> node .\01_variable.js    
+100
+50
+1000
+1000
+18.35
+number
+1200
+number
+30
+-10
+200
+0.25
+10
+PS E:\Web_Bocket-Inetrnship\javascript\class 1> */
