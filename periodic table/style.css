@@ -9,8 +9,8 @@
     display: grid;
     grid-template-columns: repeat(18, 60px);
     grid-template-rows: repeat(10, 60px);
-    gap: 4px;
-    margin: 100px 300px;
+    gap: 6px;
+    margin: 10px 50px;
     /* background-color: black; */
   }
   
@@ -23,9 +23,11 @@
   
   h1 {
     text-align: center;
-    color: black;
+    color: brown;
     margin-top: 100px;
+    text-align: center;
     font-size: 30px;
+    text-shadow: #a1ffc3;
   }
   
   #box2 {
