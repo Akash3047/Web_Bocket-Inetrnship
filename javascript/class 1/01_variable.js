@@ -85,13 +85,59 @@ let name = "Akash";
 console.log("My name is:", name);
 
 //using backtick ``;
-console.log(`My name is : $(name)`);
+console.log(`My name is : ${name}`);
 console.log(typeof name);
 
 //fun fact:
 
-let numbers = "1000"; //let,var,const(keyword), =(assign operator), "1000"(vlue);
+let numbers = "1000"; //let,var,const(keyword), =(assign operator), "1000"(value);
 let strings = 1000;
 
 console.log(typeof numbers);
-console/log(typeof strings);
+console.log(typeof strings);
+
+
+//bigInt :
+//BigInt is a n new datatype in javascript that can be represents integers in any size.It is used to tahtare too large or small.
+let BigInt = 1000000000000000000;
+console.log(BigInt);
+
+//null :
+let result = null;   //null : void/empty;
+console.log(result);
+console.log(typeof result);
+
+
+//undefined :
+//let value = undefined;
+let value;
+console.log(value);
+console.log(typeof value);
+
+//boolean :
+
+let isMarried = false;
+console.log(typeof isMarried);  //boolean
+console.log(!isMarried);
+
+//symbol :
+//symbol is a data types in js to produce unique key values and its is introduced in Es6.
+//It is used to create unique identifiers for objects.
+
+
+let symbol1= symbol("abc");
+let symbol2 = symbol("def");
+console.log(symbol1 === symbol2);
+
+
+//Nan :
+//Nan is a datatype in js that represtents a no numeric value.
+//NaN is a special value that represents an invalid number.
+
+let num_values1 = 100;
+let num_values2 = "150";
+
+console.log(num_values1  + num_values2);
+
+let output = 0/0;
+console.log(output);//NaN(not a number)
