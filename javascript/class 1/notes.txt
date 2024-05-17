@@ -9,3 +9,8 @@
 // javascript is case sensitive.(A ! = 0)
 
 //let second num = 1000; (space dosent allow while declaring variable.)
+
+//string:
+
+//string is a collection of characters.
+//string should be "------". 

@@ -75,3 +75,23 @@ number
 0.25
 10
 PS E:\Web_Bocket-Inetrnship\javascript\class 1> */
+
+//string:
+
+//string is a collection of characters.
+//string should be "------". 
+
+let name = "Akash";
+console.log("My name is:", name);
+
+//using backtick ``;
+console.log(`My name is : $(name)`);
+console.log(typeof name);
+
+//fun fact:
+
+let numbers = "1000"; //let,var,const(keyword), =(assign operator), "1000"(vlue);
+let strings = 1000;
+
+console.log(typeof numbers);
+console/log(typeof strings);
