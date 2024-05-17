@@ -21,6 +21,8 @@
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     z-index: 100000;
+    overflow: hidden;
+    background-color:#313534;
   }
   nav ul {
     list-style: none;
@@ -37,16 +39,28 @@
     text-decoration: none;
     font-weight: bolder;
   }
+  nav a {
+    float: center;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20PX 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  nav a:hover {
+    color: lightcoral;
+    font-size: 20px;
+  } 
   .back1 {
-    background-image: url("./image/image2.jpeg");
+    background-image: url("./image/images1.jpg");
     min-height: 100%;
   }
   .back2 {
-    background-image: url("./image/image3.jpeg");
+    background-image: url("./image/images2.avif");
     min-height: 100%;
   }
   .back3 {
-    background-image: url("./image/image1.jpeg");
+    background-image: url("./image/images3.avif");
     min-height: 100%;
   }
   .back1,
