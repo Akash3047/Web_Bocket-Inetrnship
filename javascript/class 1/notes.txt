@@ -2,7 +2,7 @@
 
 //Syntax: 
            var , let and const(keywords).
-// Rrecomended-->> let and const.
+// Recomended-->> let and const.
 
 //Example: let num = 10;
 
@@ -14,3 +14,16 @@
 
 //string is a collection of characters.
 //string should be "------". 
+
+
+//number() : Built in construction function.
+
+//string() : Built in construction function.
+
+//truthy value : non-zero(1,-1,2...etc),non-empty string("Akash"),objects({}).
+
+//falsy value : false,0,-0,0n,"",null,undefined,NaN.
+
+// "\n" :
+//to break to the next line.
+//let sentence
