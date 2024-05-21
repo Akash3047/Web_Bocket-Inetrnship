@@ -38,3 +38,34 @@ console.log(bikes);
 //The pop() method removes the last element from an array an returns that elemnet.This method changes the length of the array.
 console.log(bikes.pop());  //Beneli
 console.log(bikes);   //[ 'Pulsar', 'Ninja', 'Ktm' ]
+
+
+let fruits = ["apple", "banana", "mango"];
+fruits.push("orange");
+console.log(fruits);  //[ 'apple', 'banana', 'mango', 'orange' ]
+
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers.pop());  //5
+console.log(numbers);  //[ 1, 2, 3, 4 ]
+
+let stack = [];
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.pop();
+stack.pop();
+console.log(stack);  //[ 1 ]
+
+let letters = ["a", "b"];
+letters.push("c", "d");
+let lastLetter = letters.pop();
+console.log(letters);    //[ 'a', 'b', 'c' ]
+console.log(lastLetter); //d
+
+let myArray = [10, 20, 30];
+myArray.push(40);
+console.log(myArray.pop());     //Ans-40
+console.log(myArray);          //Ans-[ 10, 20, 30 ]
+
+let numbers1 = [1, 2, 3, 4, 5];
+console.log(numbers1.length);   //Ans-5
