@@ -28,7 +28,7 @@
 
 //push method:
 //The push() method adds one more elements to the end of an array and returns the new length of the array.
-let bikes = ["Pulsar","Ninja","Ktm"];
+let bikes = ["Pulsar","Ninja","Ktm","Truiumph","Harley"];
 console.log(bikes);
 
 bikes.push("Beneli");
@@ -69,3 +69,36 @@ console.log(myArray);          //Ans-[ 10, 20, 30 ]
 
 let numbers1 = [1, 2, 3, 4, 5];
 console.log(numbers1.length);   //Ans-5
+
+
+//unshift method:
+//The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+
+bikes.unshift("Yamaha");
+console.log(bikes);
+
+//Shift method:
+//The Shift 
+console.log(bikes.shift());
+console.log(bikes);
+
+//Slice method:
+//The slice() method extracts a part of an array and returns the extracted part in a new array.
+
+console.log(bikes.slice(1, 3));     //[ 'Ninja', 'Ktm' ]
+console.log(bikes.slice(0,4));      //first index include and last index wont include.
+
+//splice method:
+//The splice() method adds/removes items to/from an array, and returns the removed item(s).
+//The splice() method changes the contents of an array by removing existing elements and/or adding new elements.
+
+//console.log(bikes.splice(0, 4));    //start:the index at which u need to change the array
+//delecount:The numbers you want to delete
+//end: the index at which you need to stop changing the array.
+
+//console.log(bikes.splice(0, 3));
+console.log(bikes.splice(1, 4));
+
+//Adding element using splice method:
+bikes.splice(1, 0, "Kawasaki");
+console.log(bikes);

@@ -1,9 +1,12 @@
 1- Print your birthday in the console using the Date object.
 ans-  
-let myDob = new Date();
-console.log(new Date("08-05-2000"));
+let birthday = new Date("2000-05-08");
+let day = birthday.getDate();
+let month = birthday.getMonth();
+let year = birthday.getFullYear();
+console.log("My birthday is on:" + day + "-" + month + "-" + year);
 
-output-2000-08-04T18:30:00.000Z
+output-My birthday is on:8-4-2000
 
 2- Print the current time in the console using the Date object.
 ans-
