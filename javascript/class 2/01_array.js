@@ -40,9 +40,9 @@ console.log(bikes.pop());  //Beneli
 console.log(bikes);   //[ 'Pulsar', 'Ninja', 'Ktm' ]
 
 
-let fruits = ["apple", "banana", "mango"];
-fruits.push("orange");
-console.log(fruits);  //[ 'apple', 'banana', 'mango', 'orange' ]
+// let fruits = ["apple", "banana", "mango"];
+// fruits.push("orange");
+// console.log(fruits);  //[ 'apple', 'banana', 'mango', 'orange' ]
 
 let numbers = [1, 2, 3, 4, 5];
 console.log(numbers.pop());  //5
@@ -102,3 +102,46 @@ console.log(bikes.splice(1, 4));
 //Adding element using splice method:
 bikes.splice(1, 0, "Kawasaki");
 console.log(bikes);
+
+// Replace using splice method :
+// bikes.splice(1, 2, "Kawasaki", "Honda"); // 1: start from index 1,  2: delete no
+// console.log(bikes);
+
+// concat method :
+// The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but returns a new array.
+
+let cars = ["Ferrari", "BMW", "Audi", "Porsche", "Range-Rover"];
+let vehicle = bikes.concat(cars);
+// console.log(vehicle);
+
+// console.log(Array.isArray(cars)); // to check the type
+// console.log(Array.from("Pramod")); // to create an array
+
+// Flat array method :
+// The flat() method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+
+let mixedArray = [1, 2, 3, ["a", "b", "c"], [2.5, 5.6, 3.9]];
+console.log(mixedArray);
+console.log(mixedArray.flat(Infinity));
+
+// Array of method :
+// The of() method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.
+
+let num1 = 100;
+let num2 = 200;
+let num3 = 300;
+
+console.log(Array.of(num1, num2, num3)); // instance of an array
+
+// Array.of("Pramod","Swadhin","Priyanka")
+
+
+let myArray2 = [1,2,3,4,5,6];
+//console.log(myArray2);   //[ 1, 2, 3, 4, 5, 6 ]
+//myArray2.pop();          //[ 1, 2, 3, 4, 5 ]
+myArray2.shift();          //[ 2, 3, 4, 5, 6 ]
+console.log(myArray2);
+
+let fruits = ["apple", "banana", "mango"];
+fruits.push("orange");
+console.log(fruits); 

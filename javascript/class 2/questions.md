@@ -57,6 +57,7 @@ Exercise 1: Manipulate an Array
 Create an array of numbers.
 Add a number to the end.
 Remove the first number.
+
 Exercise 2: Combining Arrays
 
 Create two arrays of different fruit types.

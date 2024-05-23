@@ -69,3 +69,19 @@ console.log(numbers1.length);   //Ans-5
 myArray.push(40);
 console.log(myArray.pop());     //Ans-40
 console.log(myArray);          //Ans-[ 10, 20, 30 ]
+
+
+
+Dt-22/05/24
+Exercise 1: Manipulate an Array
+
+Create an array of numbers.
+Add a number to the end.
+Remove the first number.
+
+Ans-
+let myArray2 = [1,2,3,4,5,6];
+//console.log(myArray2);   //[ 1, 2, 3, 4, 5, 6 ]
+//myArray2.pop();          //[ 1, 2, 3, 4, 5 ]
+myArray2.shift();          //[ 2, 3, 4, 5, 6 ]
+console.log(myArray2);
