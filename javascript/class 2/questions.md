@@ -1,5 +1,6 @@
-## Questions ?
+Questions ?
 
+Date: 21-05-2024 :
 - //todo? Print your birthday in the console using the Date object.
 - //todo? Print the current time in the console using the Date object.
 - //todo? Print your current age in the console using the Date object.
@@ -48,3 +49,16 @@ myArray.push(40);
 console.log(myArray.pop());
 console.log(myArray);
 ```
+
+
+Date: 22-05-2024 :
+Exercise 1: Manipulate an Array
+
+Create an array of numbers.
+Add a number to the end.
+Remove the first number.
+Exercise 2: Combining Arrays
+
+Create two arrays of different fruit types.
+Merge them into one array.
+Remove any duplicate fruits.
