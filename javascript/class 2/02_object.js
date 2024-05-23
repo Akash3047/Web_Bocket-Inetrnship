@@ -23,7 +23,7 @@ let student = {
 // Creating object :
 // Using object literal :
 let student = {
-    name: "John",
+    name: "Akash",
     age: 30,
     city: "Bhubaneswar",
     marks: [80, 90, 70],
@@ -33,17 +33,38 @@ let student = {
   // console.log(student);
   
   // Constructor :
-  let newStudent = new Object();
-  newStudent.name = "John";
-  newStudent.age = 30;
-  newStudent.city = "Bhubaneswar";
-  newStudent.marks = [80, 90, 70];
-  newStudent.isMarried = false;
-  newStudent.address = { po: "RRL", pin: 751013 };
-  // console.log(newStudent);
+//   let newStudent = new Object();
+//   newStudent.name = "Akash";
+//   newStudent.age = 30;
+//   newStudent.city = "Bhubaneswar";
+//   newStudent.marks = [80, 90, 70];
+//   newStudent.isMarried = false;
+//   newStudent.address = { po: "RRL", pin: 751013 };
+//   // console.log(newStudent);
   
   // Accessing object :
   
   // myarray[0]
   console.log(student.name); // dot notation
   console.log(student["marks"]); // bracket notation
+
+  //Modifying a object:
+
+  //Deleting object:
+  delete student.age;
+  console.log(student);
+
+  //Object Keys:
+
+  let keys = Object.keys(student);
+  console.log(keys);
+
+  //object Value:
+  let value = Object.values(student);
+  console.log(value);
+
+  //object entries
+  let entry = Object.entries(student);
+  console.log(entry);
+
+  

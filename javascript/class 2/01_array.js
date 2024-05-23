@@ -142,6 +142,13 @@ let myArray2 = [1,2,3,4,5,6];
 myArray2.shift();          //[ 2, 3, 4, 5, 6 ]
 console.log(myArray2);
 
-let fruits = ["apple", "banana", "mango"];
-fruits.push("orange");
-console.log(fruits); 
+// let fruits = ["apple", "banana", "mango"];
+// fruits.push("orange");
+// console.log(fruits); 
+
+
+let fruits1 = [1, 2, 3, 4, 5, 6]; 
+let fruits2 = [3, 4, 5, 7];
+let fruits = fruits1.concat(fruits2);
+let mergedArr = [...new Set(fruits)]
+console.log(mergedArr);
