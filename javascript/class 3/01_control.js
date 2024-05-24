@@ -44,34 +44,34 @@
 
 //switch statement:
 //syntax:
-let day = 5;      //declare a variable
-switch (day) {
-    case 1:
-        console.log("Today is Monaday");
-        break;
-    case 2:
-        console.log("Today is Tuesday");
-        break;
-    case 3:
-        console.log("Today is Wednesday");
-        break;
-    case 4:
-        console.log("Today is Thrusday");
-        break;
-    case 5:
-        console.log("Today is Friday");
-        break;
-    case 6:
-        console.log("Today is Satyrday");
-        break;
-    case 7:
-        console.log("Today is Sunday");
-        break;
-    //defult:if none of the above case match.
-    default:
-        console.log("Invalid Day");
-        break;
-}
+// let day = 5;      //declare a variable
+// switch (day) {
+//     case 1:
+//         console.log("Today is Monaday");
+//         break;
+//     case 2:
+//         console.log("Today is Tuesday");
+//         break;
+//     case 3:
+//         console.log("Today is Wednesday");
+//         break;
+//     case 4:
+//         console.log("Today is Thrusday");
+//         break;
+//     case 5:
+//         console.log("Today is Friday");
+//         break;
+//     case 6:
+//         console.log("Today is Satyrday");
+//         break;
+//     case 7:
+//         console.log("Today is Sunday");
+//         break;
+//     //defult:if none of the above case match.
+//     default:
+//         console.log("Invalid Day");
+//         break;
+// }
 
 //terniary opearator:
 //syntax:
