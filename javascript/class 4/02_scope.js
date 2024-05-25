@@ -1,4 +1,4 @@
-// Scope
+// Scope:
 
 // The current context of execution where values and expressions are visible or can be referenced.
 
