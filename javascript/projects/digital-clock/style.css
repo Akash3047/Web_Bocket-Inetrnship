@@ -1,0 +1,32 @@
+body {
+    background-color: #212121;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: 500px;
+    background-blend-mode: hard-light;
+    background-repeat: no-repeat;
+    background-image: cover;
+
+  }
+  .heading {
+    color: greenyellow;
+    text-shadow: rgba(230, 156, 28, 0.9) 0px 0px 39px;
+  }
+  .clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    background-image: url(image.avif);
+    font-size: 60px;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }

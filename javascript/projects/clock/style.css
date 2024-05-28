@@ -5,6 +5,7 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
     margin: 0;
+    background-color: darkgoldenrod;
   }
   .clock {
     position: relative;
@@ -12,12 +13,12 @@ body {
     height: 300px;
     border-radius: 50%;
     border: 10px solid;
-    background: white;
+    background:aqua;
   }
   .hand {
     position: absolute;
-    width: 50%;
-    height: 6px;
+    width: 45%;
+    height: 10px;
     background: black;
     top: 50%;
     transform-origin: 100%;
@@ -25,14 +26,14 @@ body {
     transition: transform 0.5s ease-in;
   }
   .hour {
-    height: 8px;
+    height: 9px;
     background: black;
   }
   .minute {
-    height: 6px;
+    height: 6.5px;
     background: black;
   }
   .second {
-    height: 4px;
+    height: 2.5px;
     background: red;
   }
