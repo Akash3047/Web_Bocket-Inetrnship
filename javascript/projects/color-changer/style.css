@@ -1,0 +1,53 @@
+
+.heading {
+    text-align: center;
+}
+.color_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    transition: 1s ease-in-out;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#red {
+    background-color: red;
+    color: white;
+}
+#grey {
+    background-color:grey;
+    color: white;
+}
+#black {
+    background-color:black;
+    color: white;
+}
+#green {
+    background-color: green;
+    color: white;
+}
+#blue {
+    background-color: blue;
+    color: white;
+}
+#random {
+    background-color: white;
+    color: black;
+}
+.color:hover{
+    cursor: pointer;
+    font-size: 25px;
+}
