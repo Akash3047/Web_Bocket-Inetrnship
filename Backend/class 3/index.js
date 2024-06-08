@@ -1,45 +1,53 @@
-const express =  require("express");
-const fs  = require("fs");
+// import modules
+const express = require("express");
+const fs = require("fs");
+require("dotenv").config();
+const greeting = require("./data");
 
-//setup server:
+// setup server
 const app = express();
+
+// middlewares
 app.use(express.json());
-
-app.get("/",(req,res) =>{
-    res.json({msg:"Welcome to my server"});
-    res.end("Welcome to my server");
+app.use((req, res, next) => {
+  greeting();
+  next();
 });
 
-app.get("/Home",(req,res) =>{
-    res.json({msg:"Welcome to my home page"});
+app.get("/", (req, res) => {
+  res.json({ msg: "Hello from server" });
+  // res.end("Bye from server");
 });
 
-app.get("/About",(req,res) =>{
-    res.json({msg:"Welcome to my about page"});
+app.get("/service", (req, res) => {
+  res.json({ msg: "Hello from service" });
 });
 
-app.get("/write",(req,res) =>{
-    const myName = "Akash Kar";
-    fs.writeFileSync("logs.txt",myName);
-    res.json({msg:"Sucessfully created"});
+app.get("/write", (req, res) => {
+  const myName = "Akash Kar";
+  fs.writeFileSync("logs.txt", myName);
+  res.json({ msg: "Successfully created" });
 });
 
-
-app.get("/read",(req,res) =>{
-    const data = fs.readFileSync("./logs.txt","utf-8");
+app.get("/read", (req, res) => {
+  const data = fs.readFileSync("./logs.txt", "utf-8");
+  res.send(data);
 });
 
-app.get("/append",(req,res) =>{
-    const sentence = "I am SDE-1";
-    fs.appendFileSync("logs.txt",sentence);
-    req.json({msg: "Succesfully created"});
+app.get("/append", (req, res) => {
+  const sentence = "I am a SDE-I";
+  fs.appendFileSync("./logs.txt", sentence);
+  res.json({ msg: "Successfully created" });
 });
 
-
-
-//start the server:
-const port = process.env.port || 3047;;
-app.listen(port,() =>{
-    console.log(`Server is started on port ${port}`);
+app.post("/post", (req, res) => {
+  const user = req.body;
+  fs.appendFileSync("./logs.txt", JSON.stringify(user));
+  res.send(user);
 });
 
+// start server
+const port = process.env.port || 3000;
+app.listen(port, () => {
+  console.log(`Server started on port ${port}`);
+});
