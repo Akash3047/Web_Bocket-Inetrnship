@@ -1,5 +1,5 @@
 const greeting = () => {
-    console.log("Hello, Developers!");
+    console.log(" Hello, Developers! ");
   };
   
-  module.exports = greeting;
+  module.exports = greeting ;
