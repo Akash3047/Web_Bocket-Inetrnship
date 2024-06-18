@@ -1,0 +1,10 @@
+//Schema: To define the struture
+//model:  Schema 
+//Model: using module we can performe CRUD operations.
+//Collections: Collections is a group of mongodb documents and each Collectionsis store in BSON file.
+-Mogodb store the data in the form of documents and these documents are stored in Collections.
+
+//Document:A document im mogodb is a JSON like data struture. 
+-Single record in the collection is called document.
+
+
