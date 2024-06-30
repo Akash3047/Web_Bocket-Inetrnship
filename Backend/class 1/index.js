@@ -31,13 +31,13 @@ const server = http.createServer((req,res)=>{
             res.end("Hey welcome to my server");
             break;
         case "/home":
-            res.end("Hey welcome to my home");
+            res.end("Hey welcome to my home page");
             break;
         case "/about":
-            res.end("Hey welcome to my about");
+            res.end("Hey welcome to my about page");
             break;
         case "/contact":
-            res.end("Hey welcome to my contact");
+            res.end("Hey welcome to my contact page");
             break;
         default:
             res.end("404 page not found");
